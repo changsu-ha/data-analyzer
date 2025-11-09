@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-analyzer"
+version = "0.1.0"
+description = "Robot dataset download and analysis helpers."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "huggingface_hub>=0.24.0",
+]
+
+[[project.authors]]
+name = "Data Analyzer Maintainers"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

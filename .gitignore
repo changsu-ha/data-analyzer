@@ -1,0 +1,48 @@
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.dist-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Tool caches and logs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+.tox/
+.cache/
+*.log
+
+# IDE/editor helpers
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data that should stay out of Git
+data/raw/
+data/interim/
+data/processed/
+artifacts/
+
+# Package metadata generated locally
+src/data_analyzer.egg-info/
